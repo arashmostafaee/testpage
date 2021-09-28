@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  background-color: #1f2937;
+  color: white;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.h1style {
+  margin: 10px 50px 5px;
+}
+
+.linkstyle {
+  margin: 10px 30px 5px;
+}
+
+.navbar a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+}
+
+.quotepart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 15px;
+}
+
+.quotestyle h1{
+  font-size: 30px;
+  margin: 10px;
+}
+.quotestyle p {
+  margin: 5px;
+}
+
+.quotestyle button {
+  cursor: pointer;
+  background-color: blue;
+  border-color: blue;
+  font-weight: 500;
+  color: white;
+  font-style: oblique;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: 2px solid transparent;
+
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.info-head2{
+  margin: 0 auto;
+}
+
+.img-info{
+  display: flex;
+  justify-content: space-around;
+}
+.lime-info{
+  margin: 15px;
+
+}
